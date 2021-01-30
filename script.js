@@ -25,6 +25,11 @@ function calculateTotal() {
 
   const grandTotal = totalPrice + tax;
   document.getElementById("grand-total").innerText = "$" + grandTotal;
+
+  //Display total ticket & price in modal
+  const totalTicket = firstClassCount + economyCount;
+  document.getElementById("total-ticket").innerText = totalTicket;
+  document.getElementById("show-price").innerText = grandTotal;
 }
 
 //Convert captured input values into Integer.

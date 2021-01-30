@@ -33,9 +33,12 @@ nav ul li a {
   color: #fff;
   padding: 10px;
   text-transform: uppercase;
+  text-decoration: none;
+  list-style-type: none;
 }
 nav ul li a:hover,
 a.active {
+  color: #fff !important;
   background-color: #3352f2;
   border-radius: 5px;
 }
